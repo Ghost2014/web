@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>数据双向绑定1</title>
+    <script src="/web/lib/angular-1.3.3/angular.min.js"></script>
+    <script>
+        var app = angular.module('myApp',[]);
+        app.controller('Aaa',['$scope','$timeout',function($scope,$timeout){
+            $scope.hreo = '会是哪一个英雄降临呢？';
+            //方法一：
+            setTimeout(function(){
+                $scope.$apply(function () {
+                    $scope.hreo = "绿巨人";
+                });
+            },2000);
+
+            //方法二：
+            $scope.xman = '会是那个一个X战警呢？';
+            $timeout(function () {
+                $scope.xman = "暴风女";
+            },4000);
+
+            //视图影响数据
+            $scope.name = '幻影猫';
+        }])
+    </script>
+</head>
+<body>
+<div ng-controller="Aaa">
+    <h4>数据影响视图-实现1</h4>
+    <p>请等待2秒，你会看到一个英雄</p>
+    <p>{{hreo}}</p>
+    <h4>数据影响视图-实现2</h4>
+    <p>请等待2秒，你会看到一个英雄</p>
+    <p>{{xman}}</p>
+    <h4>视图影响数据</h4>
+    <p>请输入你想成为的英雄</p>
+    <p><input type="text" ng-model="name"/></p>
+    <p>{{name}}</p>
+</div>
+</body>
+</html>

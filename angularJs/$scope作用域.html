@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>$scope作用域</title>
+    <script src="/web/lib/angular-1.3.3/angular.min.js"></script>
+    <script>
+        var app = angular.module('myApp',[]);
+        app.controller('Aaa',['$scope', '$rootScope',function ($scope,$rootScope) {
+            $scope.name = "钢铁侠";
+            $scope.age = 100;
+            $rootScope.global = '我是全局作用域里面的内容';
+        }]);
+
+        app.controller('Baa',['$scope', function ($scope) {
+            $scope.name = "美国队长";
+            $scope.age = 130;
+        }]);
+    </script>
+</head>
+<body>
+<div ng-controller="Aaa">
+    <p>{{name}}</p>
+    <p>{{age}}</p>
+</div>
+<div ng-controller="Baa">
+    <p>{{name}}</p>
+    <p>{{age}}</p>
+    <p>{{global}}</p>
+</div>
+</body>
+</html>

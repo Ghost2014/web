@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
-
-</body>
-</html>
+<div class="row-fluid">
+    <div class="span2">
+        <ul>
+            <li ng-repeat="item in aside"><a ui-sref="{{item.href}}" ng-bind="item.name"></a></li>
+        </ul>
+    </div>
+    <div class="span10">
+        <div ui-view></div>
+    </div>
+</div>

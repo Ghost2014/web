@@ -1,0 +1,57 @@
+/**
+ * Created by ghost on 2015/6/15.
+ */
+var app = angular.module('app',['ui.router','ngAnimate']);
+app.config(function($stateProvider, $urlRouterProvider){
+    $urlRouterProvider.otherwise('/index');
+    $stateProvider.state('index',{
+        url:'/init',
+        controller:'init',
+        templateUrl:'tpls/init.html'
+        })
+        .state('wxmz',{
+            url:'/list1',
+            controller:'wxmz',
+            templateUrl:'tpls/list.html'
+        })
+        .state('wlxs',{
+            url:'/list2',
+            controller:'wlxs',
+            templateUrl:'tpls/list.html'
+        })
+        .state('wxmz.bmsg',{
+            url:'/bmsg',
+            controller:'bmsg',
+            templateUrl:'tpls/detail.html'
+        })
+        .state('wxmz.lbwb',{
+            url:'/lbwb',
+            controller:'lbwb',
+            templateUrl:'tpls/detail.html'
+        })
+        .state('wxmz.bmsg.showDetail',{
+            url:'/showDetail',
+            controller:'showDetail',
+            template:'<h2>清明雨上</h2>'
+        })
+        .state('wxmz.lmsj',{
+            url:'/lmsj',
+            controller:'lmsj',
+            templateUrl:'tpls/detail.html'
+        })
+        .state('wxmz.yyz',{
+            url:'/yyz',
+            controller:'yyz',
+            templateUrl:'tpls/detail.html'
+        })
+        .state('wxmz.xlsbz',{
+            url:'/xlsbz',
+            controller:'xlsbz',
+            templateUrl:'tpls/detail.html'
+        })
+        .state('wxmz.tslyz',{
+            url:'/tslyz',
+            controller:'tslyz',
+            templateUrl:'tpls/detail.html'
+        })
+});

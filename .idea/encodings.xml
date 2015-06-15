@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/bookStore/js/controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/ui-route/js/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/ui-route/js/controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/ui-route/tpls/init.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/ui-route/tpls/init.html" charset="US-ASCII" />
+  </component>
+</project>

@@ -3,53 +3,53 @@
  */
 var app = angular.module('app',['ui.router','ngAnimate']);
 app.config(function($stateProvider, $urlRouterProvider){
-    $urlRouterProvider.otherwise('/index');
-    $stateProvider.state('index',{
+    $urlRouterProvider.otherwise('/app');
+    $stateProvider.state('app',{
         url:'/init',
         controller:'init',
         templateUrl:'tpls/init.html'
         })
-        .state('wxmz',{
+        .state('app.wxmz',{
             url:'/list1',
             controller:'wxmz',
             templateUrl:'tpls/list.html'
         })
-        .state('wlxs',{
+        .state('app.wlxs',{
             url:'/list2',
             controller:'wlxs',
             templateUrl:'tpls/list.html'
         })
-        .state('wxmz.bmsg',{
+        .state('app.wxmz.bmsg',{
             url:'/bmsg',
             controller:'bmsg',
             templateUrl:'tpls/detail.html'
         })
-        .state('wxmz.lbwb',{
+        .state('app.wxmz.lbwb',{
             url:'/lbwb',
             controller:'lbwb',
             templateUrl:'tpls/detail.html'
         })
-        .state('wxmz.bmsg.showDetail',{
+        .state('app.wxmz.bmsg.showDetail',{
             url:'/showDetail',
             controller:'showDetail',
             template:'<h2>清明雨上</h2>'
         })
-        .state('wxmz.lmsj',{
+        .state('app.wxmz.lmsj',{
             url:'/lmsj',
             controller:'lmsj',
             templateUrl:'tpls/detail.html'
         })
-        .state('wxmz.yyz',{
+        .state('app.wxmz.yyz',{
             url:'/yyz',
             controller:'yyz',
             templateUrl:'tpls/detail.html'
         })
-        .state('wxmz.xlsbz',{
+        .state('app.wxmz.xlsbz',{
             url:'/xlsbz',
             controller:'xlsbz',
             templateUrl:'tpls/detail.html'
         })
-        .state('wxmz.tslyz',{
+        .state('app.wxmz.tslyz',{
             url:'/tslyz',
             controller:'tslyz',
             templateUrl:'tpls/detail.html'

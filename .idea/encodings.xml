@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$/app/bookStore/js/controller.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/ui-route/js/app.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/ui-route/js/controller.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/ui-route/tpls/init.html" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/app/route-ui/js/controller.js" charset="UTF-8" />
   </component>
 </project>

@@ -1,0 +1,80 @@
+/**
+ * Created by ghost on 2015/6/16.
+ */
+var app = angular.module('app', ['ui.router']);
+app.config(function($stateProvider, $urlRouterProvider) {
+    $urlRouterProvider.otherwise('/index0');
+    $stateProvider
+        .state('tpl0',{
+            url:'/index0',
+            templateUrl:'tpls/tpl0.html'
+        })
+        .state('tpl1',{
+            url:'/index1',
+            templateUrl:'tpls/tpl1.html',
+            controller:'tpl1_ctrl'
+        })
+        .state('tpl2',{
+            url:'/index2',
+            templateUrl:'tpls/tpl1.html',
+            controller:'tpl2_ctrl'
+        })
+        .state('tpl3',{
+            url:'/index3',
+            templateUrl:'tpls/tpl1.html',
+            controller:'tpl3_ctrl'
+        })
+        //tpl1
+        .state('tpl1.list1',{
+            url:'/tpl1_list1',
+            templateUrl:'tpls/list1.html'
+        })
+        .state('tpl1.list2',{
+            url:'/tpl1_list2',
+            templateUrl:'tpls/list2.html'
+        })
+        .state('tpl1.list3',{
+            url:'/tpl1_list3',
+            templateUrl:'tpls/list3.html'
+        })
+        .state('tpl1.list4',{
+            url:'/tpl1_list4',
+            templateUrl:'tpls/list4.html'
+        })
+        //tpl2
+        .state('tpl2.list1',{
+            url:'/tpl2_list1',
+            templateUrl:'tpls/list1.html'
+        })
+        .state('tpl2.list2',{
+            url:'/tpl2_list2',
+            templateUrl:'tpls/list2.html'
+        })
+        .state('tpl2.list3',{
+            url:'/tpl2_list3',
+            templateUrl:'tpls/list3.html'
+        })
+        .state('tpl2.list4',{
+            url:'/tpl2_list4',
+            templateUrl:'tpls/list4.html'
+        })
+        //tpl3
+        .state('tpl3.list1',{
+            url:'/tpl3_list1',
+            templateUrl:'tpls/list1.html'
+        })
+        .state('tpl3.list2',{
+            url:'/tpl3_list2',
+            templateUrl:'tpls/list2.html'
+        })
+        .state('tpl3.list3',{
+            url:'/tpl3_list3',
+            templateUrl:'tpls/list3.html'
+        })
+        .state('tpl3.list4',{
+            url:'/tpl3_list4',
+            templateUrl:'tpls/list4.html'
+        })
+
+});
+

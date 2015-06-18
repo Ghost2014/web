@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>canvas七巧板</title>
+    <style>
+        *{margin:0;padding:0;}
+        .bc{margin-left:auto;margin-right: auto;}
+    </style>
+</head>
+<body>
+<canvas id="canvas" class="bc"></canvas>
+<script>
+    var cv = document.getElementById("canvas");
+    cv.width=500;
+    cv.height=500;
+    var tangram = [
+        {p:[{x:0,y:0},{x:0,y:500},{x:250,y:250}],colors:'#EE3E12'},
+        {p:[{x:0,y:0},{x:500,y:0},{x:250,y:250}],colors:'#08621D'},
+        {p:[{x:0,y:500},{x:300,y:500},{x:450,y:350},{x:150,y:350}],colors:'#21317C'},
+        {p:[{x:150,y:350},{x:450,y:350},{x:250,y:250}],colors:'#1F074C'},
+        //{p:[{x:0,y:500},{x:300,y:500},{x:450,y:350},{x:150,y:350}],colors:'#CEB503'},
+       // {p:[{x:0,y:500},{x:300,y:500},{x:450,y:350},{x:150,y:350}],colors:'#DA1E07'},
+        //{p:[{x:0,y:500},{x:300,y:500},{x:450,y:350},{x:150,y:350}],colors:'#781109'},
+    ]
+    var content = cv.getContext('2d');
+    for(var i=0;i<tangram.length;i++)
+    {
+        draw(tangram[i],content);
+    }
+    function draw(t,c)
+    {
+        c.beginPath();
+        c.moveTo(t.p[0].x, t.p[0].y);
+        for(var i=0;i< t.p.length;i++){
+            c.lineTo(t.p[i].x, t.p[i].y);
+        }
+        c.closePath();
+        c.fillStyle = t.colors;
+        c.fill();
+        //c.stroke();
+    }
+</script>
+</body>
+</html>

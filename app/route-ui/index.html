@@ -2,44 +2,36 @@
 <html ng-app="app">
 <head lang="en">
     <meta charset="UTF-8">
-    <title>红色警戒3</title>
+    <title>w3c菜鸟教程</title>
     <link rel="stylesheet" href="../../lib/bootsrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/docs.css"/>
 </head>
 <body>
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
-            <button type="button" class="btn btn-navbar" ui-sref="tpl1">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="brand" ui-sref="tpl0">红色警戒3</a>
+            <a class="brand" ui-sref="home" style="float:left;color:#999;">w3c菜鸟教程</a>
             <div class="nav-collapse collapse">
                 <ul class="nav">
-                    <li class="active">
-                        <a ui-sref="tpl0">入口</a>
-                    </li>
-                    <li class="">
-                        <a ui-sref="tpl1.list1">帝国</a>
-                    </li>
-                    <li class="">
-                        <a ui-sref="tpl2.list1">盟军</a>
-                    </li>
-                    <li class="">
-                        <a ui-sref="tpl3.list1">苏联</a>
-                    </li>
+                    <li class="active"><a ui-sref="home">首页</a></li>
+                    <li><a ui-sref="html">HTML/CSS</a></li>
+                    <li><a ui-sref="js">JavaScript</a></li>
+                    <li><a ui-sref="php">PHP</a></li>
+                    <li><a ui-sref="mysql">MySql</a></li>
+                    <li><a ui-sref="java">Java</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
-
-<div ui-view class="container" style="padding-top: 50px;"></div>
-
+<div ui-view></div>
+<div class="container" style="color: #8CBF00;">
+    3cschool菜鸟教程提供的内容或服务用于个人学习、研究或欣赏，以及其他非商业性或非盈利性用途。我们不保证内容的正确性。通过使用本站内容随之而来的风险与本站无关。当使用本站时，代表您已接受了本站的使用条款和隐私条款。 版权所有，保留一切权利。w3cschool菜鸟教程所有内容仅供测试，对任何法律问题及风险不承担任何责任。
+</div>
 <script src="../../lib/angular-1.3.3/angular.min.js"></script>
 <script src="../../lib/angular-ui-router.min.js"></script>
 <script src="js/app.js"></script>
+<script src="js/service.js"></script>
 <script src="js/controller.js"></script>
 </body>
 </html>

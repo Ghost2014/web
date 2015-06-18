@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>hello canvas</title>
+</head>
+<body>
+<canvas id="canvas" style="border: 1px solid #d5d5d5;">您的浏览器不支持canvas,请使用谷歌浏览器</canvas>
+<script>
+    var canvas = document.getElementById('canvas');
+    canvas.width = 1024;
+    canvas.height = 768;
+    var content = canvas.getContext('2d');
+    content.beginPath();
+    content.moveTo(100,100);
+    content.lineTo(700,700);
+    content.lineTo(100,700);
+    content.lineTo(100,100);
+    content.lineWidth = 5;
+    content.strokeStyle = "#4f0321";
+    content.stroke();
+    content.closePath();
+    //正方形
+    content.beginPath();
+    content.moveTo(800,100);
+    content.lineTo(1000,100);
+    content.lineTo(1000,250);
+    content.lineTo(800,250);
+    content.lineTo(800,97);
+    content.fillStyle="#f60";
+    content.fill();
+    content.closePath();
+</script>
+</body>
+</html>

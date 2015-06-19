@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d12f149-bf11-48e0-b256-ac10b426aa39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/digitalClock/digit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/digitalClock/draw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/digitalClock/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/绘制弧线.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/demo2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/demo3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/相册/css/slider-wb.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/求职.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/canvas/七巧板.html" afterPath="$PROJECT_DIR$/canvas/七巧板.html" />
     </list>
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,43 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="绘制弧线.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/canvas/绘制弧线.html">
+      <file leaf-file-name="demo3.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/canvas/demo3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32142857" vertical-offset="329" max-vertical-offset="1200">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding>
-                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/canvas/digitalClock/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32142857" vertical-offset="149" max-vertical-offset="340">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="draw.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/canvas/digitalClock/draw.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70964247" vertical-offset="489" max-vertical-offset="3828">
-              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="countdown.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/53ccc9380001f73b00000000/canvas-course/countdown.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.0" vertical-offset="2220" max-vertical-offset="3220">
-              <caret line="137" column="5" selection-start-line="129" selection-start-column="4" selection-end-line="137" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.82681566" vertical-offset="0" max-vertical-offset="960">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -90,11 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/ui-route/tpls/president.html" />
-        <option value="$PROJECT_DIR$/app/ui-route/js/controller.js" />
-        <option value="$PROJECT_DIR$/app/ui-route/tpls/main.html" />
-        <option value="$PROJECT_DIR$/route-ui/AngularJS实战第二章第四节路由源代码/app/UIRoute3.js" />
-        <option value="$PROJECT_DIR$/app/BookStore2/src/js/app.js" />
         <option value="$PROJECT_DIR$/app/ui-route/tpls/aside.html" />
         <option value="$PROJECT_DIR$/app/ui-route/index.html" />
         <option value="$PROJECT_DIR$/app/ui-route/js/app.js" />
@@ -141,6 +103,11 @@
         <option value="$USER_HOME$/Desktop/canvas-course2/canvas-course/countdown.js" />
         <option value="$USER_HOME$/Desktop/53ccc9380001f73b00000000/canvas-course/countdown.js" />
         <option value="$PROJECT_DIR$/canvas/digitalClock/draw.js" />
+        <option value="$PROJECT_DIR$/canvas/demo2.html" />
+        <option value="$PROJECT_DIR$/canvas/相册/css/slider-wb.css" />
+        <option value="$PROJECT_DIR$/canvas/相册/程序员给女朋友用HTML5制作的3D相册.html" />
+        <option value="$PROJECT_DIR$/canvas/求职.html" />
+        <option value="$PROJECT_DIR$/canvas/demo3.html" />
       </list>
     </option>
   </component>
@@ -208,24 +175,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="canvas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="canvas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="digitalClock" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -656,7 +605,7 @@
         <state vertical-scroll-proportion="0.32142857" vertical-offset="329" max-vertical-offset="1200">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -709,26 +658,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/53ccc9380001f73b00000000/canvas-course/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.571428" vertical-offset="0" max-vertical-offset="400">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/53ccc9380001f73b00000000/canvas-course/countdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0" vertical-offset="2220" max-vertical-offset="3220">
-          <caret line="137" column="5" selection-start-line="129" selection-start-column="4" selection-end-line="137" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/canvas/digitalClock/draw.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70964247" vertical-offset="489" max-vertical-offset="3828">
+        <state vertical-scroll-proportion="0.0" vertical-offset="489" max-vertical-offset="3828">
           <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/相册/css/slider-wb.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5200434" vertical-offset="2677" max-vertical-offset="4200">
+          <caret line="204" column="1" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/demo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding>
+            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/求职.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.571428" vertical-offset="1020" max-vertical-offset="20060">
+          <caret line="70" column="58" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/demo3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82681566" vertical-offset="0" max-vertical-offset="960">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding />
         </state>
       </provider>

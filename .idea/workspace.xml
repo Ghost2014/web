@@ -2,56 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d12f149-bf11-48e0-b256-ac10b426aa39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/demo1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/route-ui/css/docs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/route-ui/tpls/layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/route-ui/js/service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/七巧板.html" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wlxs\1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wlxs\10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wlxs\2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wlxs\3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wlxs\4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wlxs\5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wlxs\6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wlxs\7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wlxs\8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wlxs\9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wxmz\1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wxmz\10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wxmz\2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wxmz\3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wxmz\4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wxmz\5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wxmz\6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wxmz\7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wxmz\8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\img\wxmz\9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\index.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\js\config.route.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\js\controller.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\js\directive.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\js\service.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\test.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\tpls\bookdetails.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\tpls\booklist.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\bookStore\tpls\init.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\route-ui\tpls\details1.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\route-ui\tpls\list1.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\route-ui\tpls\list2.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\route-ui\tpls\list3.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\route-ui\tpls\list4.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\route-ui\tpls\tpl0.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\route-ui\tpls\tpl1.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\route-ui\tpls\tpl2.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\web\app\route-ui\tpls\tpl3.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/route-ui/js/app.js" afterPath="$PROJECT_DIR$/app/route-ui/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/route-ui/js/controller.js" afterPath="$PROJECT_DIR$/app/route-ui/js/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/digitalClock/digit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/digitalClock/draw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/digitalClock/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/绘制弧线.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="F:\web\app\route-ui\tpls\details2.html" afterPath="$PROJECT_DIR$/app/route-ui/index.html" />
-      <change type="MOVED" beforePath="F:\web\app\route-ui\tpls\details3.html" afterPath="$PROJECT_DIR$/app/route-ui/tpls/detail.html" />
-      <change type="MOVED" beforePath="F:\web\app\route-ui\tpls\details4.html" afterPath="$PROJECT_DIR$/app/route-ui/tpls/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/canvas/七巧板.html" afterPath="$PROJECT_DIR$/canvas/七巧板.html" />
     </list>
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="demo1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/canvas/demo1.html">
+      <file leaf-file-name="绘制弧线.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/canvas/绘制弧线.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.714286" vertical-offset="0" max-vertical-offset="800">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.32142857" vertical-offset="329" max-vertical-offset="1200">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -88,11 +44,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="七巧板.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/canvas/七巧板.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/canvas/digitalClock/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41899443" vertical-offset="25" max-vertical-offset="1000">
-              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.32142857" vertical-offset="149" max-vertical-offset="340">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="draw.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/canvas/digitalClock/draw.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.70964247" vertical-offset="489" max-vertical-offset="3828">
+              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="countdown.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/53ccc9380001f73b00000000/canvas-course/countdown.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.0" vertical-offset="2220" max-vertical-offset="3220">
+              <caret line="137" column="5" selection-start-line="129" selection-start-column="4" selection-end-line="137" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -114,13 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/bookStore/tpls/booklist.html" />
-        <option value="$PROJECT_DIR$/app/bookStore/tpls/bookdetails.html" />
-        <option value="$PROJECT_DIR$/app/BookStore2/src/js/controllers.js" />
-        <option value="$PROJECT_DIR$/app/bookStore/js/config.route.js" />
-        <option value="$PROJECT_DIR$/route-ui/AngularJS实战第二章第四节路由源代码/app/tpls3/index.html" />
-        <option value="$PROJECT_DIR$/route-ui/AngularJS实战第二章第四节路由源代码/app/tpls3/test.html" />
-        <option value="$PROJECT_DIR$/app/ui-route/tpls/home.html" />
         <option value="$PROJECT_DIR$/app/ui-route/tpls/president.html" />
         <option value="$PROJECT_DIR$/app/ui-route/js/controller.js" />
         <option value="$PROJECT_DIR$/app/ui-route/tpls/main.html" />
@@ -165,6 +134,13 @@
         <option value="$PROJECT_DIR$/app/route-ui/js/app.js" />
         <option value="$PROJECT_DIR$/canvas/demo1.html" />
         <option value="$PROJECT_DIR$/canvas/七巧板.html" />
+        <option value="$PROJECT_DIR$/canvas/绘制弧线.html" />
+        <option value="$PROJECT_DIR$/canvas/digitalClock/digit.html" />
+        <option value="$PROJECT_DIR$/canvas/digitalClock/digit.js" />
+        <option value="$PROJECT_DIR$/canvas/digitalClock/index.html" />
+        <option value="$USER_HOME$/Desktop/canvas-course2/canvas-course/countdown.js" />
+        <option value="$USER_HOME$/Desktop/53ccc9380001f73b00000000/canvas-course/countdown.js" />
+        <option value="$PROJECT_DIR$/canvas/digitalClock/draw.js" />
       </list>
     </option>
   </component>
@@ -235,6 +211,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="canvas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="digitalClock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -249,7 +243,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.PHP" />
+    <property name="options.lastSelected" value="reference.webide.settings.project.settings.smarty" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -291,6 +285,9 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -298,9 +295,6 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="5">
@@ -349,14 +343,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -380,20 +374,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/BookStore2/src/tpls/addBookForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/BookStore2/src/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="39" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/wamp/www/Ocean2015/2.产品域/2.3 实现 Imp/2.3.4 Demo/ocean_nms_demo/src/main/webapp/beacon/page/template_main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -552,7 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1516793" vertical-offset="0" max-vertical-offset="923">
           <caret line="7" column="10" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,7 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="260">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -568,7 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24593717" vertical-offset="16973" max-vertical-offset="21440">
           <caret line="860" column="18" selection-start-line="860" selection-start-column="18" selection-end-line="860" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -576,7 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08938547" vertical-offset="0" max-vertical-offset="895">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -584,7 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13407822" vertical-offset="0" max-vertical-offset="895">
           <caret line="6" column="46" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,7 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47995666" vertical-offset="197" max-vertical-offset="1300">
           <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -600,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11173184" vertical-offset="0" max-vertical-offset="895">
           <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -608,7 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11173184" vertical-offset="0" max-vertical-offset="895">
           <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,9 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32827735" vertical-offset="37" max-vertical-offset="960">
           <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,9 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5139665" vertical-offset="0" max-vertical-offset="895">
           <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -636,10 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.77097505" vertical-offset="0" max-vertical-offset="882">
           <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -647,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32502708" vertical-offset="60" max-vertical-offset="1660">
           <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="220">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,7 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.108342364" vertical-offset="0" max-vertical-offset="923">
           <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,24 +630,105 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21668473" vertical-offset="0" max-vertical-offset="923">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/canvas/demo1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.714286" vertical-offset="0" max-vertical-offset="800">
+        <state vertical-scroll-proportion="0.33519554" vertical-offset="0" max-vertical-offset="895">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/canvas/七巧板.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41899443" vertical-offset="25" max-vertical-offset="1000">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.5083799" vertical-offset="105" max-vertical-offset="1000">
+          <caret line="28" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/绘制弧线.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32142857" vertical-offset="329" max-vertical-offset="1200">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/myCode/module/fullpage视觉差/js/jq-extend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3900" max-vertical-offset="8600">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/myCode/module/fullpage视觉差/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3000" max-vertical-offset="5460">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/myCode/module/fullpage视觉差/视觉差fullpage风格.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79888266" vertical-offset="145" max-vertical-offset="1040">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/digitalClock/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32142857" vertical-offset="149" max-vertical-offset="340">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/digitalClock/digit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2820">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/53ccc9380001f73b00000000/canvas-course/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.571428" vertical-offset="0" max-vertical-offset="400">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/53ccc9380001f73b00000000/canvas-course/countdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.0" vertical-offset="2220" max-vertical-offset="3220">
+          <caret line="137" column="5" selection-start-line="129" selection-start-column="4" selection-end-line="137" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/digitalClock/draw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70964247" vertical-offset="489" max-vertical-offset="3828">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
           <folding />
         </state>
       </provider>

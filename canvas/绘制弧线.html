@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>弧线</title>
+</head>
+<body>
+<canvas id="canvas" width="1024" height="768" style="border: 1px solid #d5d5d5;">您的浏览器不支持canvas,请使用谷歌浏览器</canvas>
+<script>
+    var canvas = document.getElementById('canvas');
+    var cxt = canvas.getContext('2d');
+    cxt.beginPath();
+    cxt.arc(50,50,50,0,2*Math.PI);
+    //cxt.stroke();
+    cxt.closePath();
+    cxt.fillStyle = '#008855';
+    cxt.lineWidth = 2;
+    cxt.fill();
+    for(var i=0;i<10;i++)
+    {
+        cxt.beginPath();
+        cxt.arc(50+i*100,160,40,0,(2*Math.PI*(i+1))/10,false);
+        cxt.closePath();
+        cxt.fillStyle = '#008855';
+        cxt.fill();
+    }
+
+    for(var i=0;i<10;i++)
+    {
+        cxt.beginPath();
+        cxt.arc(50+i*100,260,40,0,(2*Math.PI*(i+1))/10,false);
+        cxt.closePath();
+        cxt.strokeStyle = '#008855';
+        cxt.stroke();
+    }
+
+    for(var i=0;i<10;i++)
+    {
+        cxt.beginPath();
+        cxt.arc(50+i*100,360,40,0,(2*Math.PI*(i+1))/10,false);
+        cxt.strokeStyle = '#008855';
+        cxt.stroke();
+    }
+
+    for(var i=0;i<10;i++)
+    {
+        cxt.beginPath();
+        cxt.arc(50+i*100,460,40,0,(2*Math.PI*(i+1))/10,true);
+        cxt.closePath();
+        cxt.strokeStyle = '#008855';
+        cxt.stroke();
+    }
+</script>
+</body>
+</html>

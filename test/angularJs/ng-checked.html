@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../../lib/angular-1.3.3/angular.min.js"></script>
+    <script>
+        var app = angular.module('app',[]);
+        app.controller('myCtrl',['$scope',function($scope){
+            $scope.data = [
+                {name:'北冥神功'},
+                {name:'六脉神剑'},
+                {name:'降龙十八掌'},
+                {name:'易筋经'},
+                {name:'天山六阳掌'},
+                {name:'天山折梅手'},
+            ];
+
+            $scope.data2 = [
+                {name:'北冥神功',status:true},
+                {name:'六脉神剑',status:true},
+                {name:'降龙十八掌',status:true},
+                {name:'易筋经',status:true},
+                {name:'天山六阳掌',status:true},
+                {name:'天山折梅手',status:true},
+            ];
+
+            $scope.check = function(index)
+            {
+                var bOff = $scope.data2[index].status;
+                if(bOff === false)
+                {
+                    $scope.data.splice(index,1);
+                    return;
+                }
+
+                $scope.data.splice(index,0,{name:$scope.data2[index].name});
+                console.log($scope.data2[index].name);
+            }
+
+            $scope.sub = function()
+            {
+                console.log($scope.data);
+            }
+        }]);
+    </script>
+</head>
+<body ng-controller="myCtrl">
+<h4>藏经阁</h4>
+<div>
+    <span ng-repeat="item in data" ng-bind="item.name" style="display: inline-block;margin-right: 30px;"></span>
+</div>
+<p ng-repeat="item in data2"><label><input type="checkbox" ng-checked="item.status" ng-model="item.status" ng-click="check($index)"/> {{item.name}}</label></p>
+<p><button ng-click="sub()">提交</button></p>
+</body>
+</html>

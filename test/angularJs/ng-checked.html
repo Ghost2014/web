@@ -3,51 +3,70 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+    <script src="../../lib/jquery-1.8.3.min.js"></script>
     <script src="../../lib/angular-1.3.3/angular.min.js"></script>
     <script>
         var app = angular.module('app',[]);
         app.controller('myCtrl',['$scope',function($scope){
             $scope.data = [
-                {name:'北冥神功'},
-                {name:'六脉神剑'},
-                {name:'降龙十八掌'},
-                {name:'易筋经'},
-                {name:'天山六阳掌'},
-                {name:'天山折梅手'},
+                {id:0,name:'北冥神功',status:true},
+                {id:1,name:'六脉神剑',status:true},
+                {id:2,name:'降龙十八掌',status:true},
+                {id:3,name:'易筋经',status:true},
+                {id:4,name:'天山六阳掌',status:true},
+                {id:5,name:'天山折梅手',status:true},
             ];
 
             $scope.data2 = [
-                {name:'北冥神功',status:true},
-                {name:'六脉神剑',status:true},
-                {name:'降龙十八掌',status:true},
-                {name:'易筋经',status:true},
-                {name:'天山六阳掌',status:true},
-                {name:'天山折梅手',status:true},
+                {id:0,name:'北冥神功',status:true},
+                {id:1,name:'六脉神剑',status:true},
+                {id:2,name:'降龙十八掌',status:true},
+                {id:3,name:'易筋经',status:true},
+                {id:4,name:'天山六阳掌',status:true},
+                {id:5,name:'天山折梅手',status:true},
             ];
+
+            $scope.item = [];
 
             $scope.check = function(index)
             {
                 var bOff = $scope.data2[index].status;
                 if(bOff === false)
                 {
-                    $scope.data.splice(index,1);
+                    $('#box span').eq(index).hide();
+                    $scope.item.push(index);
                     return;
                 }
-
-                $scope.data.splice(index,0,{name:$scope.data2[index].name});
-                console.log($scope.data2[index].name);
+                $('#box span').eq(index).show();
+                for(var i=0;i<$scope.item.length;i++)
+                {
+                    if(index === $scope.item[i])
+                    {
+                        $scope.item.splice(i,1);
+                    }
+                }
             }
 
             $scope.sub = function()
             {
-                console.log($scope.data);
+                console.log($scope.item);
+                for(var i=0;i<$scope.item.length;i++)
+                {
+                    for(var j=0;j<$scope.data.length;j++)
+                    {
+                        if($scope.item[i] === $scope.data[j].id)
+                        {
+                            console.log($scope.data.splice(j,1));
+                        }
+                    }
+                }
             }
         }]);
     </script>
 </head>
 <body ng-controller="myCtrl">
 <h4>藏经阁</h4>
-<div>
+<div id="box">
     <span ng-repeat="item in data" ng-bind="item.name" style="display: inline-block;margin-right: 30px;"></span>
 </div>
 <p ng-repeat="item in data2"><label><input type="checkbox" ng-checked="item.status" ng-model="item.status" ng-click="check($index)"/> {{item.name}}</label></p>

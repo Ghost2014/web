@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2015-06-25 10:55:53
+<?php /* Smarty version Smarty-3.1.6, created on 2015-06-25 21:35:57
          compiled from "C:/wamp/www/myWeb/Home/View\Watch\w_list.html" */ ?>
 <?php /*%%SmartyHeaderCode:20811558a7610cbfda1-69411459%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '49bd6e8a31b35b069a33bf147b8794ce221adde8' => 
     array (
       0 => 'C:/wamp/www/myWeb/Home/View\\Watch\\w_list.html',
-      1 => 1435200849,
+      1 => 1435239355,
       2 => 'file',
     ),
   ),
@@ -56,10 +56,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <img src="/myWeb/static/img/home_3.jpg" alt="">
                 <div class="caption">
                     <h3>刘亦菲</h3>
-                    <p>飘飘</p>>
+                    <p>飘飘1</p>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="row">
         <div class="col-sm-6 col-md-3">
             <div class="thumbnail">
                 <img src="/myWeb/static/img/home_4.jpg" alt="">
@@ -92,7 +94,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <img src="/myWeb/static/img/home_7.jpg" alt="">
                 <div class="caption">
                     <h3>刘亦菲</h3>
-                    <p>飘飘</p>>
+                    <p>飘飘1</p>
                 </div>
             </div>
         </div>

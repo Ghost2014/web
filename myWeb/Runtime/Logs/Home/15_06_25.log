@@ -59,3 +59,148 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+[ 2015-06-25T21:27:32+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005776s ]
+
+[ 2015-06-25T21:27:34+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+
+[ 2015-06-25T21:27:36+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+
+[ 2015-06-25T21:27:36+08:00 ] ::1 /myWeb/index.php/home/scrawl/s_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+
+[ 2015-06-25T21:27:38+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+
+[ 2015-06-25T21:28:20+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+
+[ 2015-06-25T21:28:31+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+
+[ 2015-06-25T21:28:33+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+
+[ 2015-06-25T21:28:36+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2015-06-25T21:29:57+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+
+[ 2015-06-25T21:30:06+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+
+[ 2015-06-25T21:33:10+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+
+[ 2015-06-25T21:34:23+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+
+[ 2015-06-25T21:34:29+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+
+[ 2015-06-25T21:34:30+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+
+[ 2015-06-25T21:34:30+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2015-06-25T21:34:31+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+
+[ 2015-06-25T21:34:31+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+
+[ 2015-06-25T21:34:31+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+
+[ 2015-06-25T21:34:31+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+
+[ 2015-06-25T21:34:31+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+
+[ 2015-06-25T21:35:06+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+
+[ 2015-06-25T21:35:06+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-06-25T21:35:19+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2015-06-25T21:35:57+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+
+[ 2015-06-25T21:36:09+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+
+[ 2015-06-25T21:36:11+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2015-06-25T21:36:21+08:00 ] ::1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+
+[ 2015-06-25T21:36:22+08:00 ] ::1 /myWeb/index.php/home/scrawl/s_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+

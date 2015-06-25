@@ -18,6 +18,11 @@ class IndexController extends Controller {
     //register
     public function register()
     {
-        $this->display();
+        if(!empty($_POST))
+        {
+            print_r($_POST);
+        }else{
+            $this->display();
+        }
     }
 }

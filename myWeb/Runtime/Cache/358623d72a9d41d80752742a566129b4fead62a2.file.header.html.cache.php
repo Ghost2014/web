@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2015-06-24 18:13:13
+<?php /* Smarty version Smarty-3.1.6, created on 2015-06-25 10:55:53
          compiled from "C:\wamp\www\myWeb\Home\View\Public\header.html" */ ?>
 <?php /*%%SmartyHeaderCode:5716558a75ad887134-50940762%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '358623d72a9d41d80752742a566129b4fead62a2' => 
     array (
       0 => 'C:\\wamp\\www\\myWeb\\Home\\View\\Public\\header.html',
-      1 => 1435140782,
+      1 => 1435200951,
       2 => 'file',
     ),
   ),
@@ -29,22 +29,29 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <meta charset="UTF-8">
     <title><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
 </title>
-    <link rel="stylesheet" href="/myWeb/lib/bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="<?php echo @APP_LIB;?>
+/bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
 </head>
 <body>
 <header class="navbar navbar-inverse navbar-static-top" style="margin-bottom: 0;">
     <nav class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="/myWeb/index.php/home/index/index">喵星人</a>
+            <a class="navbar-brand" href="<?php echo @APP_URL;?>
+/index/index">喵星人</a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="/myWeb/index.php/home/index/index">首页</a></li>
-            <li><a href="/myWeb/index.php/home/watch/w_list">围观</a></li>
-            <li><a href="/myWeb/index.php/home/scrawl/s_list">涂鸦</a></li>
+            <li class="active"><a href="<?php echo @APP_URL;?>
+/index/index">首页</a></li>
+            <li><a href="<?php echo @APP_URL;?>
+/watch/w_list">围观</a></li>
+            <li><a href="<?php echo @APP_URL;?>
+/scrawl/s_list">涂鸦</a></li>
         </ul>
         <p class="navbar-text navbar-right">
-            <a href="/myWeb/index.php/home/index/login" style="color:#fff;text-decoration: none;">登陆</a> |
-            <a href="/myWeb/index.php/home/index/register" style="color:#fff;text-decoration: none;">注册</a>
+            <a href="<?php echo @APP_URL;?>
+/index/login" style="color:#fff;text-decoration: none;">登陆</a> |
+            <a href="<?php echo @APP_URL;?>
+/index/register" style="color:#fff;text-decoration: none;">注册</a>
         </p>
     </nav>
 </header><?php }} ?>

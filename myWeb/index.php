@@ -9,6 +9,7 @@
 
 //配置公用路径
 define('APP_SITE','localhost');
+define('APP_LIB','/myWeb/lib');
 define('APP_URL','/myWeb/index.php/home');
 define('APP_IMG','/myWeb/static/img');
 

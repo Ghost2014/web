@@ -5,13 +5,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '50d51f24cc78cc2dee01d219be41bd4a2d7260f6' => 
     array (
       0 => 'C:/wamp/www/myWeb/Home/View\\Index\\index.html',
-      1 => 1435136509,
+      1 => 1435195909,
       2 => 'file',
     ),
     '358623d72a9d41d80752742a566129b4fead62a2' => 
     array (
       0 => 'C:\\wamp\\www\\myWeb\\Home\\View\\Public\\header.html',
-      1 => 1435136946,
+      1 => 1435200951,
       2 => 'file',
     ),
     'ca6480c5eea45afd1134d6bcc48e61c6aa95d681' => 
@@ -24,10 +24,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'nocache_hash' => '4519558a75ad7c7a97-67628210',
   'cache_lifetime' => 3600,
   'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_558a7becdd081',
+  'unifunc' => 'content_558b6dbd2a66b',
   'has_nocache_code' => false,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_558a7becdd081')) {function content_558a7becdd081($_smarty_tpl) {?><!doctype html>
+<?php if ($_valid && !is_callable('content_558b6dbd2a66b')) {function content_558b6dbd2a66b($_smarty_tpl) {?><!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -43,9 +43,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <ul class="nav navbar-nav">
             <li class="active"><a href="/myWeb/index.php/home/index/index">首页</a></li>
             <li><a href="/myWeb/index.php/home/watch/w_list">围观</a></li>
-            <li><a href="/myWeb/index.php/home/Scrawl/s_list">涂鸦</a></li>
+            <li><a href="/myWeb/index.php/home/scrawl/s_list">涂鸦</a></li>
         </ul>
-        <p class="navbar-text navbar-right"><a href="" style="color:#fff;text-decoration: none;">登陆</a> | <a href="" style="color:#fff;text-decoration: none;">注册</a></p>
+        <p class="navbar-text navbar-right">
+            <a href="/myWeb/index.php/home/index/login" style="color:#fff;text-decoration: none;">登陆</a> |
+            <a href="/myWeb/index.php/home/index/register" style="color:#fff;text-decoration: none;">注册</a>
+        </p>
     </nav>
 </header>
 <div style="height: 290px;"><img src="/myWeb/static/img/banner_0.jpg" alt="" style="max-width:100%;height:290px;"/></div>

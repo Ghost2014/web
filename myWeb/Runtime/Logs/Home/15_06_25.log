@@ -1,0 +1,61 @@
+[ 2015-06-25T10:54:14+08:00 ] 127.0.0.1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-25T10:55:49+08:00 ] 127.0.0.1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-25T10:55:49+08:00 ] 127.0.0.1 /myWeb/index.php/home/watch/1/myWeb/lib/bootstrap-3.3.5-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:1
+
+[ 2015-06-25T10:55:53+08:00 ] 127.0.0.1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-25T10:55:56+08:00 ] 127.0.0.1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-25T10:55:57+08:00 ] 127.0.0.1 /myWeb/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-25T10:55:58+08:00 ] 127.0.0.1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-25T10:55:58+08:00 ] 127.0.0.1 /myWeb/index.php/home/scrawl/s_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-25T10:55:59+08:00 ] 127.0.0.1 /myWeb/index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-25T10:56:00+08:00 ] 127.0.0.1 /myWeb/index.php/home/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-25T11:06:02+08:00 ] 127.0.0.1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-25T13:50:23+08:00 ] 127.0.0.1 /myWeb/index.php/home/watch/w_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+

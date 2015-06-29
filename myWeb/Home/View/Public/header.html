@@ -12,9 +12,9 @@
             <a class="navbar-brand" href="{$smarty.const.APP_URL}/index/index">喵星人</a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="{$smarty.const.APP_URL}/index/index">首页</a></li>
-            <li><a href="{$smarty.const.APP_URL}/watch/w_list">围观</a></li>
-            <li><a href="{$smarty.const.APP_URL}/scrawl/s_list">涂鸦</a></li>
+            <li class={$index}><a href="{$smarty.const.APP_URL}/index/index">首页</a></li>
+            <li class={$watch}><a href="{$smarty.const.APP_URL}/watch/w_list">围观</a></li>
+            <li class={$scrawl}><a href="{$smarty.const.APP_URL}/scrawl/s_list">涂鸦</a></li>
         </ul>
         <p class="navbar-text navbar-right">
             <a href="{$smarty.const.APP_URL}/index/login" style="color:#fff;text-decoration: none;">登陆</a> |

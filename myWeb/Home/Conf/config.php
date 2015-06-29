@@ -12,7 +12,7 @@ return array(
     'SHOW_PAGE_TRACE' => true,
 
     //关闭模板缓存
-    'TMPL_CACHE_ON' => true,
+    'TMPL_CACHE_ON' => false,
 
     //数据库设置
     'DB_TYPE'               =>  'mysql',     // 数据库类型

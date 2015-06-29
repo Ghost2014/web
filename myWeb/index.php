@@ -9,11 +9,11 @@
 
 //配置公用路径
 define('APP_SITE','localhost');
-define('APP_LIB','/myWeb/lib');
-define('APP_URL','/myWeb/index.php/home');
-define('APP_IMG','/myWeb/static/img');
+define('APP_LIB','/web/myWeb/lib');
+define('APP_URL','/web/myWeb/index.php/home');
+define('APP_IMG','/web/myWeb/static/img');
 
 //开启调试模式
 define('APP_DEBUG',TRUE);
 
-include 'lib/ThinkPHP/ThinkPHP.php';
+include '/ThinkPHP/ThinkPHP.php';

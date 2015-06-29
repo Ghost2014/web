@@ -14,9 +14,9 @@ class ScrawlController extends Controller {
     public function s_list()
     {
         $title = "看看喵星人的涂鸦吧";
-
+        $scrawl = "active";
         $this->assign('title',$title);
-
+        $this->assign('scrawl',$scrawl);
         $this->display();
     }
 

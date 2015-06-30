@@ -10,13 +10,13 @@ namespace Home\Controller;
 
 use Think\Controller;
 
-class WatchController extends Controller {
-    public function w_list()
+class CaseController extends Controller {
+    public function c_list()
     {
         $title = "喵星人围观了";
-        $watch = "active";
+        $case = "active";
         $this->assign('title',$title);
-        $this->assign('watch',$watch);
+        $this->assign('case',$case);
         $this->display();
     }
 

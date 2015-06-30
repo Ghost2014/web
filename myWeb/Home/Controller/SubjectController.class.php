@@ -10,18 +10,13 @@ namespace Home\Controller;
 
 use Think\Controller;
 
-class ScrawlController extends Controller {
+class SubjectController extends Controller {
     public function s_list()
     {
         $title = "看看喵星人的涂鸦吧";
-        $scrawl = "active";
+        $subject = "active";
         $this->assign('title',$title);
-        $this->assign('scrawl',$scrawl);
+        $this->assign('subject',$subject);
         $this->display();
-    }
-
-    public function wpk()
-    {
-        echo "出来啊";
     }
 }

@@ -6,6 +6,8 @@
     <style>
         *{margin:0;padding:0;}
         img{border:none;}
+        ul{list-style:none;}
+        .mt50{margin-top:50px;}
         .bc{margin-left:auto;margin-right:auto;}
         a{color:#fff;text-decoration: none;font-size:28px;line-height: 55px;font-family: "Microsoft Yahei",Tahoma,Geneva;}
         .pl20{padding-left: 20px;}
@@ -18,20 +20,122 @@
         .pa{position:absolute;}
         .img_info{height:55px;background:rgba(0,0,0,0.8);}
         .img_info{bottom:0;left:0;}
+        .img_ctrl{margin: 14px 15px 0 0;}
+        .img_ctrl span{display: block;float:left;width:29px;height:29px;background: url("img/img_icon.png") no-repeat;cursor: pointer;}
+        #icon_prev{background-position: 0 0;}
+        #icon_next{background-position: -59px 0;}
+        #icon_prev:hover{background-position: -30px 0;}
+        #icon_next:hover{background-position: -89px 0;}
+        #img_icon{padding:10px 5px;overflow: hidden;background: #000;height: 60px;}
+        #img_icon li{width: 60px;height: 60px;float: left;  margin: 0 4px 0 5px;position: relative;}
+        #img_icon img{display: block; width: 60px; height: 60px;}
+        .border,.mask{display: block;}
+        .border{height: 5px;width: 60px;font-size: 0;  overflow: hidden; position: absolute; left: 0;bottom: 0;background: #0cc65b;display:none;}
+        .mask{height: 60px;width: 60px;position: relative; top: -60px; margin: 0 0 -60px;left: 0;bottom: 0;background: #000; opacity: .5;}
+        .border.active{display:block;}
+        .mask.active{opacity: 0;}
     </style>
 </head>
 <body>
-<div id="container">
-    <div id="img_box" class="w700 bc pr">
+<div id="container" class="w700 bc mt50">
+    <div id="img_box" class="pr">
         <div class="w700 h320"><img src="img/img0.jpg" alt="" id="img_src"/></div>
         <div class="w700 img_info pa">
-            <h3 id="img_text" class="pl20"><a href="" class="">专辑首发：古巨基《我们》</a></h3>
-            <div id="img_ctrl">
+            <h3 id="img_text" class="pl20 fl"><a href="" class="">专辑首发：古巨基《我们》</a></h3>
+            <div class="img_ctrl fr">
                 <span id="icon_prev"></span>
                 <span id="icon_next"></span>
             </div>
         </div>
+        <div class="cb"></div>
     </div>
+    <ul id="img_icon">
+        <li>
+            <a href="">
+                <img src="img/img0_0.jpg" alt=""/>
+                <span class="border active"></span>
+                <span class="mask active"></span>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/img1_0.jpg" alt=""/>
+                <span class="border"></span>
+                <span class="mask"></span>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/img2_0.jpg" alt=""/>
+                <span class="border"></span>
+                <span class="mask"></span>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/img3_0.jpg" alt=""/>
+                <span class="border"></span>
+                <span class="mask"></span>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/img4_0.jpg" alt=""/>
+                <span class="border"></span>
+                <span class="mask"></span>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/img5_0.jpg" alt=""/>
+                <span class="border"></span>
+                <span class="mask"></span>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/img6_0.jpg" alt=""/>
+                <span class="border"></span>
+                <span class="mask"></span>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/img7_0.jpg" alt=""/>
+                <span class="border"></span>
+                <span class="mask"></span>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/img8_0.jpg" alt=""/>
+                <span class="border"></span>
+                <span class="mask"></span>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/img9_0.jpg" alt=""/>
+                <span class="border"></span>
+                <span class="mask"></span>
+            </a>
+        </li>
+    </ul>
 </div>
+
+<script>
+    var title = [
+            '专辑首发：古巨基《我们》',
+            '黄家驹：你在天堂，也在吾心',
+            'BIGBANG第三张迷你数字专辑',
+            'QQ音乐巅峰榜2015年第25周',
+            '“不安现状”的歌手，用音乐释放真我',
+            '谢天笑世界巡回演唱会精华回顾',
+            'MV首发：许佳慧《好想谈恋爱》',
+            '金曲奖直播页面',
+            '《乐人》第十四期:冷冻街乐队',
+            '3元限时升级豪华版绿钻',
+    ]
+</script>
 </body>
 </html>

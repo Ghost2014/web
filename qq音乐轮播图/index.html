@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>qq音乐轮播</title>
+    <style>
+        *{margin:0;padding:0;}
+        img{border:none;}
+        .bc{margin-left:auto;margin-right:auto;}
+        a{color:#fff;text-decoration: none;font-size:28px;line-height: 55px;font-family: "Microsoft Yahei",Tahoma,Geneva;}
+        .pl20{padding-left: 20px;}
+        .w700{width:700px;}
+        .h320{height:320px;}
+        .fl{float:left;}
+        .fr{float:right;}
+        .cb{clear:both;}
+        .pr{position:relative;}
+        .pa{position:absolute;}
+        .img_info{height:55px;background:rgba(0,0,0,0.8);}
+        .img_info{bottom:0;left:0;}
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="img_box" class="w700 bc pr">
+        <div class="w700 h320"><img src="img/img0.jpg" alt="" id="img_src"/></div>
+        <div class="w700 img_info pa">
+            <h3 id="img_text" class="pl20"><a href="" class="">专辑首发：古巨基《我们》</a></h3>
+            <div id="img_ctrl">
+                <span id="icon_prev"></span>
+                <span id="icon_next"></span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

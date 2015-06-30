@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2015-06-30 10:18:28
+<?php /* Smarty version Smarty-3.1.6, created on 2015-06-30 12:06:12
          compiled from "C:\wamp\www\web\myWeb\Home\View\Public\header.html" */ ?>
 <?php /*%%SmartyHeaderCode:40195591f9aa89f910-55243922%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e1b66da0ea0effc1ab36dc4b64606cba1262e172' => 
     array (
       0 => 'C:\\wamp\\www\\web\\myWeb\\Home\\View\\Public\\header.html',
-      1 => 1435630646,
+      1 => 1435637170,
       2 => 'file',
     ),
   ),
@@ -21,8 +21,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   array (
     'title' => 0,
     'index' => 0,
-    'case' => 0,
     'subject' => 0,
+    'case' => 0,
     'about' => 0,
   ),
   'has_nocache_code' => false,
@@ -47,12 +47,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <li class=<?php echo $_smarty_tpl->tpl_vars['index']->value;?>
 ><a href="<?php echo @APP_URL;?>
 /index/index">首页</a></li>
-            <li class=<?php echo $_smarty_tpl->tpl_vars['case']->value;?>
-><a href="<?php echo @APP_URL;?>
-/case/c_list">实例</a></li>
             <li class=<?php echo $_smarty_tpl->tpl_vars['subject']->value;?>
 ><a href="<?php echo @APP_URL;?>
 /subject/s_list">专题</a></li>
+            <li class=<?php echo $_smarty_tpl->tpl_vars['case']->value;?>
+><a href="<?php echo @APP_URL;?>
+/case/c_list">UI</a></li>
             <li class=<?php echo $_smarty_tpl->tpl_vars['about']->value;?>
 ><a href="<?php echo @APP_URL;?>
 /about/a_list">关于</a></li>

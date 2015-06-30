@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div>
+    <input type="button" value="上一条" data-type="prev"/>
+    <input type="button" value="下一条" data-type="next"/>
+</div>
+<div id="text"></div>
+<script>
+    //获取DOM元素
+    var Btn = getEle('input');
+    var Text = getId('text');
+    var iNow = 0;
+    //数据
+    var data = [
+            '1、阴阳错：我的妖孽情人',
+            '2、我的道士生涯',
+            '3、我当阴司那几年',
+            '4、坏蛋是怎样炼成的',
+            '5、盗墓笔记之七星鲁王宫'
+    ];
+
+    //设置默认显示
+    Text.innerHTML = data[0];
+
+    //事件绑定
+    for(var i=0;i<Btn.length;i++)
+    {
+        Btn[i].onclick = function()
+        {
+            //点击的时候判断当前按钮type
+            switch(this.dataset.type)
+            {
+                case 'prev':
+                        prev();
+                    break;
+                case 'next':
+                        next();
+                    break;
+            }
+        }
+    }
+
+    //向上方法
+    function prev()
+    {
+        if(iNow)
+        {
+            Text.innerHTML = data[--iNow];
+        }else{
+            alert('已经是第一条了');
+        }
+    }
+
+    //向下方法
+    function next()
+    {
+        if(iNow === (data.length-1))
+        {
+            console.log(iNow);
+            iNow = data.length-1;
+            alert('已经是最后一条了');
+        }else{
+            Text.innerHTML = data[++iNow];
+        }
+    }
+
+    //通过标签获取元素
+    function getEle(ele)
+    {
+        return document.getElementsByTagName(ele);
+    }
+    //通过id获取元素方法封装
+    function getId(id)
+    {
+        return document.getElementById(id);
+    }
+</script>
+</body>
+</html>

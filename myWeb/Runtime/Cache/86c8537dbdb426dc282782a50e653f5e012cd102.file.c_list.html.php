@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2015-06-30 10:34:03
+<?php /* Smarty version Smarty-3.1.6, created on 2015-06-30 11:13:12
          compiled from "C:/wamp/www/web/myWeb/Home/View\Case\c_list.html" */ ?>
 <?php /*%%SmartyHeaderCode:146855592001b600385-48329893%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '86c8537dbdb426dc282782a50e653f5e012cd102' => 
     array (
       0 => 'C:/wamp/www/web/myWeb/Home/View\\Case\\c_list.html',
-      1 => 1435629175,
+      1 => 1435633986,
       2 => 'file',
     ),
   ),
@@ -15,96 +15,60 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.6',
   'unifunc' => 'content_5592001b71594',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5592001b71594')) {function content_5592001b71594($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("../Public/header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
-<div class="container" style="padding-top: 20px;">
-    <div class="row">
-        <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-                <img src="<?php echo @APP_IMG;?>
-/home_0.jpg" alt="">
-                <div class="caption">
-                    <h3>刘亦菲</h3>
-                    <p>飘飘</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-                <img src="<?php echo @APP_IMG;?>
-/home_1.jpg" alt="">
-                <div class="caption">
-                    <h3>刘亦菲</h3>
-                    <p>飘飘</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-                <img src="<?php echo @APP_IMG;?>
-/home_2.jpg" alt="">
-                <div class="caption">
-                    <h3>刘亦菲</h3>
-                    <p>飘飘</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-                <img src="<?php echo @APP_IMG;?>
-/home_3.jpg" alt="">
-                <div class="caption">
-                    <h3>刘亦菲</h3>
-                    <p>飘飘1</p>
-                </div>
-            </div>
-        </div>
+<div class="container">
+    <div class="row" style="padding:20px 0;">
+        <p>
+            <span>用户名：Ghost</span>
+            <span>时间：2015-06-24 12:34:32</span>
+            <span>所在地：北京</span>
+        </p>
+        <p class="lead">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+    </div>
+    <div class="row" style="padding:20px 0;">
+        <p>
+            <span>用户名：Ghost</span>
+            <span>时间：2015-06-24 12:34:32</span>
+            <span>所在地：北京</span>
+        </p>
+        <p class="lead">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+    </div>
+    <div class="row" style="padding:20px 0;">
+        <p>
+            <span>用户名：Ghost</span>
+            <span>时间：2015-06-24 12:34:32</span>
+            <span>所在地：北京</span>
+        </p>
+        <p class="lead">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+    </div>
+    <div class="row" style="padding:20px 0;">
+        <p>
+            <span>用户名：Ghost</span>
+            <span>时间：2015-06-24 12:34:32</span>
+            <span>所在地：北京</span>
+        </p>
+        <p class="lead">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+    </div>
+    <div class="row" style="padding:20px 0;">
+        <p>
+            <span>用户名：Ghost</span>
+            <span>时间：2015-06-24 12:34:32</span>
+            <span>所在地：北京</span>
+        </p>
+        <p class="lead">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
     </div>
     <div class="row">
-        <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-                <img src="<?php echo @APP_IMG;?>
-/home_4.jpg" alt="">
-                <div class="caption">
-                    <h3>刘亦菲</h3>
-                    <p>飘飘</p>
-                </div>
+        <form>
+            <div class="form-group">
+                <textarea class="form-control" rows="3"></textarea>
             </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-                <img src="<?php echo @APP_IMG;?>
-/home_5.jpg" alt="">
-                <div class="caption">
-                    <h3>刘亦菲</h3>
-                    <p>飘飘</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-                <img src="<?php echo @APP_IMG;?>
-/home_6.jpg" alt="">
-                <div class="caption">
-                    <h3>刘亦菲</h3>
-                    <p>飘飘</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-                <img src="<?php echo @APP_IMG;?>
-/home_7.jpg" alt="">
-                <div class="caption">
-                    <h3>刘亦菲</h3>
-                    <p>飘飘1</p>
-                </div>
-            </div>
-        </div>
+            <p><button type="submit" class="btn btn-success">吐槽</button></p>
+        </form>
     </div>
 </div>
 <?php echo $_smarty_tpl->getSubTemplate ("../Public/footer.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>

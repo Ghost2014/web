@@ -33,19 +33,18 @@ class IndexController extends Controller {
             if(!$z)
             {
                 var_dump($user->getError());
-                //exit();
-            }
-
-            $res = $user->add();    //数据添加
-            if($res)
-            {
-                echo "sucess";
             }else{
-                echo "error";
+                $res = $user->add();    //数据添加
+                if($res)
+                {
+                    $this->success('注册成功',U('Index/index'));
+                }else{
+                    $this->error('注册失败',U('Index/index'));
+                }
             }
             //print_r($_POST);
         }else{
+            $this->display();
         }
-        $this->display();
     }
 }

@@ -753,3 +753,78 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+[ 2015-06-30T23:09:35+08:00 ] ::1 /web/myWeb/index.php/home/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.201480s ]
+
+[ 2015-06-30T23:15:03+08:00 ] 127.0.0.1 /www/web/myWeb/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002051s ]
+
+[ 2015-06-30T23:15:07+08:00 ] 127.0.0.1 /www/web/myWeb/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+
+[ 2015-06-30T23:15:08+08:00 ] 127.0.0.1 /www/web/myWeb/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2015-06-30T23:15:47+08:00 ] 127.0.0.1 /www/web/myWeb/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+
+[ 2015-06-30T23:16:03+08:00 ] ::1 /web/myWeb/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001332s ]
+
+[ 2015-06-30T23:16:06+08:00 ] ::1 /web/myWeb/index.php/home/subject/s_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+
+[ 2015-06-30T23:16:09+08:00 ] ::1 /web/myWeb/index.php/home/case/c_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+
+[ 2015-06-30T23:16:11+08:00 ] ::1 /web/myWeb/index.php/home/about/a_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+
+[ 2015-06-30T23:16:12+08:00 ] ::1 /web/myWeb/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+
+[ 2015-06-30T23:16:14+08:00 ] ::1 /web/myWeb/index.php/home/subject/s_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+
+[ 2015-06-30T23:16:17+08:00 ] ::1 /web/myWeb/index.php/home/case/c_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+
+[ 2015-06-30T23:16:17+08:00 ] ::1 /web/myWeb/index.php/home/about/a_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+
+[ 2015-06-30T23:16:18+08:00 ] ::1 /web/myWeb/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+
+[ 2015-06-30T23:34:39+08:00 ] ::1 /web/myWeb/index.php/home/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+

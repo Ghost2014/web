@@ -122,7 +122,7 @@
         </li>
     </ul>
 </div>
-
+<script src="Tools.js"></script>
 <script>
     var title = [
             '专辑首发：古巨基《我们》',
@@ -135,7 +135,104 @@
             '金曲奖直播页面',
             '《乐人》第十四期:冷冻街乐队',
             '3元限时升级豪华版绿钻',
-    ]
+    ];
+    var img_path = [
+        'img/img0.jpg',
+        'img/img1.jpg',
+        'img/img2.jpg',
+        'img/img3.jpg',
+        'img/img4.jpg',
+        'img/img5.jpg',
+        'img/img6.jpg',
+        'img/img7.jpg',
+        'img/img8.jpg',
+        'img/img9.jpg',
+    ];
+    var imgSrc = getId('img_src'); //图片容器
+    var imgText = getEle('img_text','a')[0]; //标题容器
+    var iconPrev= getId('icon_prev'); //前进
+    var iconNext= getId('icon_next'); //后退
+    var navList_li = getEle('img_icon','li'); // 获取img_icon下面所以的li标签
+    var navList_a = getEle('img_icon','a'); // 获取img_icon下面所以的a标签
+    var aSpan = [];       //获取span
+    var timer = null;
+    var iNow = 0;
+    var index = 0;
+
+    for(var i=0;i<navList_a.length;i++)
+    {
+        //获取span
+        aSpan.push(navList_a[i].getElementsByTagName('span'));
+
+        //手动切换
+        navList_li[i].index = i;
+        navList_li[i].onmouseover = function()
+        {
+            clearInterval(timer);
+            toggle(this.index);
+        }
+
+        navList_li[i].onmouseout = function()
+        {
+            iNow = this.index
+            timer = setInterval(autoPlay,2000);
+        }
+    }
+
+    //自动播放
+    timer = setInterval(autoPlay,2000);
+    function autoPlay()
+    {
+        index = iNow++;
+        toggle(index);
+        if(iNow === img_path.length)
+        {
+            iNow = 0;
+        }
+    }
+
+    //切换逻辑
+    function toggle(index)
+    {
+        imgSrc.src = img_path[index];
+        imgText.innerHTML = title[index];
+        for(var i=0;i<aSpan.length;i++)
+        {
+            aSpan[i][0].style.display = "none";
+            aSpan[i][1].style.opacity = 0.5;
+        }
+        aSpan[index][0].style.display = "block";
+        aSpan[index][1].style.opacity = 0;
+    }
 </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

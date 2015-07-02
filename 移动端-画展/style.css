@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-family:Microsoft YaHei;}
+html{font-size:62.5%;}
+
+
+header{position:relative;}
+.title{font-size:1.8rem; color:#000; text-align:center; padding:14px 0 14px 0;}
+header ul{position:absolute; left:-40%; background:#FFF; top:44px; z-index:11; width:40%;}
+header ul li{font-size:1.4rem; width:75%; border-bottom:1px solid #d1d1d1; margin:0 auto; padding:10px 0 10px 0;}
+header ul li .idn_lst{width:15%; float:left; margin-right:2%;}
+.tle_img{position:absolute; left:5%; top:17px; width:5%;}
+
+.swiper-slide{background:#FFF;}
+
+.introduction{width:20%; float:left; margin-left:11%; margin-top:15%;}
+.preface{width:20%; float:left; margin-left:11%; margin-top:15%;}
+.curator{width:15%; float:left; margin-left:11%; margin-top:15%;}
+.artist{width:42%; margin:15% auto 0 auto;}
+.art_txt{width:89%; margin:5% auto 0 auto;}
+.art_txt span{margin-right:5%; font-size:1.2rem; margin-top:5%; display:block; float:left;}
+.work{width:42%; margin:11% auto 11% auto;}
+.panoramic{width:42%; margin:11% auto 11% auto;}
+.pan_txt{font-size:1.2rem; width:100%; text-align:center;}
+.pan_txt a{text-decoration:underline; font-weight:bold; margin-left:10px;}
+
+
+.map{width:42%; margin:15% auto 15% auto;}
+.int_txt{text-align:center; font-size:1.6rem; text-decoration:underline; font-weight:bold; margin-top:10%;}
+
+.art_tle{padding:10px 4%; width:92%; background:#FFF;}
+.art_tle h2{font-size:1.8rem; color:#000; margin-bottom:5px;}
+.art_tle p{font-size:1.5rem; color:#666;}
+.art_img{width:8%; padding-top:5px;}
+.art_text{padding:5% 4%;}
+.art_text h2{font-size:1.8rem; padding-bottom:5%;}
+.art_text p{font-size:1.4rem; line-height:22px;}
+
+.videoShow{position:relative;}
+.videoShow .vd_time{position:absolute; bottom:0; right:0; color:#FFF; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');background:rgba(0,0,0,0.8); font-size:1.2rem; padding:2px 6px;}
+.vd_bx_bg{position:absolute; width:100%; left:0; top:0; background:#000; height:100%; opacity:0.6;}
+.vd_a{position:absolute; left:0; top:0; width:100%; z-index:1;}
+.vd_txt{padding:10px 4%; margin-bottom:10px; font-size:1.4rem; line-height:18px; color:#000; font-family:Microsoft YaHei;}
+
+.btn_wz a{background:#000; display:block; color:#FFF; padding:14px 0; width:60%; text-align:center; margin:0 auto; font-size:1.8rem;}
+.tel_txt{font-size:1.8rem; color:#000; text-align:center; width:100%; display:block; margin-top:25px;}
+.m_avt{position:absolute; bottom:5%; left:0; width:100%;}
+
+
+
+/* NewsList */
+
+
+#container{position:relative;}
+
+
+/* 窗口宽度<960,设计宽度=768 */
+@media screen and (max-width:959px){
+}
+/* 窗口宽度<768,设计宽度=640 */
+@media screen and (max-width:767px){
+      
+}
+/* 窗口宽度<640,设计宽度=480 */
+@media screen and (max-width:639px){
+      
+}
+/* 窗口宽度<480,设计宽度=320 */
+@media screen and (max-width:321px){
+	html{font-size:55%;}
+	   header ul li{padding:8px 0 8px 0;}
+      .work{width:45%; margin:5% auto 5% auto;}
+	  .panoramic{width:45%; margin:5% auto 5% auto;}
+	  .map{width:45%; margin:5% auto 5% auto;}
+	  .art_text p{line-height:18px;}
+}
+
+
+
+
+
+
+
+
+
+
+

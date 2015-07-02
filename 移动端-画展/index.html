@@ -1,0 +1,322 @@
+
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
+
+<title>“高妙传神”关良绘画艺术展</title>
+
+<link href="reset.css" rel="stylesheet">
+
+<link href="swiper.min.css" rel="stylesheet">
+
+<link href="style.css" rel="stylesheet">
+
+<script src="zepto.min.js"></script>
+
+<script src="swiper.jquery.min.js"></script>
+
+<script src="animate.js"></script>
+
+<script src="touch.js"></script>
+
+<script>
+
+$(function(){
+
+	// swiper 
+
+	var byWid=$(window).width();
+
+	var byHeg=$(window).height();
+
+	$('.swiper-container').css({width:byWid,height:byHeg-44});	
+
+	$('.swiper-slide').css({width:byWid,height:byHeg-44});	
+
+	var mySwiper = new Swiper ('.swiper-container', {
+
+    direction: 'vertical',
+
+    loop: true,
+
+	effect : 'coverflow',
+
+	centeredSlides: true,
+
+	slidesPerView: 1,
+
+	coverflow: {
+
+            rotate: 0,
+
+            stretch: 0,
+
+            depth: 100,
+
+            modifier: 10,
+
+            slideShadows : true
+
+    }
+
+  	});
+
+	// 导航
+
+	function leftmenu_c1(){
+
+		$('.swiper-slide').animate({marginLeft:'40%'},100);
+
+		$('header ul').animate({left:0},100);
+
+		result=true;
+
+	}
+
+	function leftmenu_c2(){
+
+		$('.swiper-slide').animate({marginLeft:0},100);
+
+		$('header ul').animate({left:'-40%'},100);
+
+		result=false;
+
+	}
+
+	var result=false;
+
+	$('.tle_img').tap(function(){
+
+	   if(result){
+
+			leftmenu_c2();
+
+		}else{
+
+			leftmenu_c1();	
+
+		}
+
+	});
+
+});
+
+</script>
+
+</head>
+
+
+
+<body>
+
+<header>
+
+	<div class="tle_img"><img src="images_slide/icon-menu.png"></div>
+
+	<div class="title">“高妙传神”关良绘画艺术展</div>
+
+    <ul>
+
+    	<li>
+
+        	<div class="idn_lst"><img src="images_slide/icon01.png"></div>
+
+        	<a href="#">展览海报</a>
+
+        </li>
+
+        <li class="lst02"><div class="idn_lst"><img src="images_slide/icon02.png"></div><a href="#">展览介绍</a></li>
+
+        <li class="lst03"><div class="idn_lst"><img src="images_slide/icon03.png"></div><a href="#">展览前言</a></li>
+
+        <li class="lst04"><div class="idn_lst"><img src="images_slide/icon04.png"></div><a href="#">策展人</a></li>
+
+        <li class="lst05"><div class="idn_lst"><img src="images_slide/icon05.png"></div><a href="#">参展艺术家</a></li>
+
+        <li class="lst06"><div class="idn_lst"><img src="images_slide/icon06.png"></div><a href="#">展览作品</a></li>
+
+        <li class="lst07"><div class="idn_lst"><img src="images_slide/icon07.png"></div><a href="#">展览全景</a></li>
+
+        <li class="lst08"><div class="idn_lst"><img src="images_slide/icon08.png"></div><a href="#">现场视频</a></li>
+
+        <li class="lst09"><div class="idn_lst"><img src="images_slide/icon09.png"></div><a href="#">展览评论</a></li>
+
+        <li class="lst10"><div class="idn_lst"><img src="images_slide/icon10.png"></div><a href="#">展览文章</a></li>
+
+        <li class="lst11"><div class="idn_lst"><img src="images_slide/icon11.png"></div><a href="#">现场报道</a></li>
+
+        <li class="lst12"><div class="idn_lst"><img src="images_slide/icon12.png"></div><a href="#">展览路线图</a></li>
+
+        <li class="lst13"><div class="idn_lst"><img src="images_slide/icon13.png"></div><a href="#">邀请好友观展</a></li>
+
+        <li class="lst14"><div class="idn_lst"><img src="images_slide/icon14.png"></div><a href="#">我也要开微展</a></li>
+
+    </ul>
+
+</header>
+
+<div class="swiper-container">
+
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+
+        	<img src="images_slide/news/2015062611480927785.jpg">
+
+        </div>
+
+        <div class="swiper-slide">
+
+        	<img src="images_slide/news/2015062610372637855.jpg">
+
+            <div class="clearfix">
+
+            	<div class="introduction">
+
+                	<a href="introduction.php?ShowCode=33747"><img src="images_slide/introduction.png"></a>
+
+                </div>
+
+                <div class="preface">
+
+                	<a href="notes.php?ShowCode=33747"><img src="images_slide/preface.png"></a>
+
+                </div>
+
+                <div class="curator">
+
+                	<a href="curator.php?ShowCode=33747"><img src="images_slide/curator.png"></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="swiper-slide">
+
+        	<img src="images_slide/news/2015062609571847958.jpg">
+
+            <div class="artist">
+
+            	<a href="artist.php?ShowCode=33747"><img src="images_slide/exhibition_artist.png"></a>
+
+            </div>
+
+            <div class="art_txt clearfix">
+
+            
+            </div>
+
+        </div>
+
+        <div class="swiper-slide">
+
+        	<img src="images_slide/news/2015062609571822609.jpg">
+
+            <div class="work">
+
+            	<a href="works.php?ShowCode=33747"><img src="images_slide/exhibition_work.png"></a>
+
+            </div>
+
+            <img src="images_slide/news/2015062609571896673.jpg">
+
+            <div class="panoramic">
+
+           	 
+            	<a href="http://exhibit.artron.net/exhibition-33747.html"><img src="images_slide/exhibition_360.png"></a>
+
+                
+            </div>
+
+            <div class="pan_txt">足不出户享受 全方位展览现场视觉<a href="#">开启全景</a></div>
+
+        </div>
+
+        <div class="swiper-slide">
+
+        	<img src="images_slide/news/2015062609571886402.jpg">
+
+            <div class="work">
+
+            	<a href="video.php?ShowCode=33747"><img src="images_slide/field_video.png"></a>
+
+            </div>
+
+            <img src="images_slide/news/2015062609571991959.jpg">
+
+            <div class="clearfix">
+
+            	<div class="introduction">
+
+                	<a href="comment.php?ShowCode=33747"><img src="images_slide/comment.png"></a>
+
+                </div>
+
+                <div class="preface">
+
+                	<a href="news.php?ShowCode=33747"><img src="images_slide/article.png"></a>
+
+                </div>
+
+                <div class="preface">
+
+                	<a href="report.php?ShowCode=33747"><img src="images_slide/live_report.png"></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="swiper-slide">
+
+        	<img src="images_slide/news/2015062609571982284.jpg">
+
+            <div class="map">
+
+                <a href="map.php?ShowCode=33747"><img src="images_slide/ExhibitionRoadmap.png"></a>
+
+            </div>
+
+            <img src="images_slide/news/2015062609571922556.jpg">
+
+           <div class="map">
+
+                <img src="images_slide/Invite friendsToVisit.png">
+
+                <div class="int_txt"><a href="invitation.php?ShowCode=33747">发邀请函</a></div>
+
+            </div>
+
+        </div>
+
+        <div class="swiper-slide">
+
+        	<img src="images_slide/img11.jpg">
+
+        	<div class="m_avt">
+
+            	<div class="btn_wz"><a href="#">我　要　微　展</a></div>
+
+            	<a href="#" class="tel_txt">400-669-0999</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
+
